@@ -1,0 +1,24 @@
+{
+  "components": [
+    {
+      "text": "# Вывод",
+      "type": "text",
+      "id": "Field_1mz4q9r"
+    },
+    {
+      "type": "textfield",
+      "id": "Field_0m2vtyf",
+      "key": "res",
+      "disabled": false
+    }
+  ],
+  "type": "default",
+  "id": "Form_0a1ezjp",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.7.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 6
+}

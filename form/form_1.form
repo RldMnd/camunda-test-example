@@ -1,0 +1,24 @@
+{
+  "components": [
+    {
+      "text": "# Несучная форма",
+      "type": "text",
+      "id": "Field_0y1k1l7"
+    },
+    {
+      "label": "Введите число",
+      "type": "textfield",
+      "id": "Field_0d3ifnm",
+      "key": "num_value"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.7.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 6
+}

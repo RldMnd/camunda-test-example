@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_07mv2ce" name="temp_dmn" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.7.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.18.0">
+  <decision id="Decision_0hz4hkv" name="Decision 1">
+    <decisionTable id="DecisionTable_028azsn">
+      <input id="Input_1">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" typeRef="string" />
+      <rule id="DecisionRule_06fip50">
+        <inputEntry id="UnaryTests_0ds0amq">
+          <text>"Налево"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1dzit44">
+          <text>"Коня потеряешь"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1gtcexw">
+        <inputEntry id="UnaryTests_0lo9kpb">
+          <text>"Направо"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0rmtag5">
+          <text>"Голову потеряешь"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0klh0x4">
+        <inputEntry id="UnaryTests_0k26c5u">
+          <text>"Прямо"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1cq96um">
+          <text>"Profit"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="Decision_0hz4hkv">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

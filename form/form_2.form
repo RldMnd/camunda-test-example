@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Налево",
+          "value": "Налево"
+        },
+        {
+          "label": "Направо",
+          "value": "Направо"
+        },
+        {
+          "label": "Прямо",
+          "value": "Прямо"
+        }
+      ],
+      "label": "Выбери путь",
+      "type": "select",
+      "id": "Field_0kd1mub",
+      "key": "selpath"
+    }
+  ],
+  "type": "default",
+  "id": "Form_08bl16r",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.7.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 6
+}
